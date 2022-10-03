@@ -66,7 +66,6 @@ include_once('../Database/ManageTable.class.php');
         {
             $this->manageTable->createTables();
             $xml = simplexml_load_file($fileName);
-            //$location = $this->manageTable->insertLocationFolder('../XML/book.xml');
             for($i=0; $i<sizeof($xml); $i++){
                 echo "compteur ".$i." <br />";
                 $this->manageTable->insertData($xml->book[$i]);

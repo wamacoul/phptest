@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <?php
         header("refresh: 1000;");
+        header('Content-type: text/html; charset=utf-8');
     ?>
     <title>Document</title>
 </head>
@@ -155,7 +156,7 @@
                         <div class="row">
                             <?php
                                 if(empty($row['namebook'])){
-                                    echo htmlspecialchars("<none> (no books found)");
+                                    echo htmlspecialchars("<none> (no booksé found)");
                                 }else{
                                     echo $row['namebook'];
                                 }

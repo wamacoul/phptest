@@ -14,7 +14,6 @@ class ManageTable
                     "CREATE TABLE IF NOT EXISTS authors (
                         id serial PRIMARY KEY,
                         nameAuthor varchar(255) NOT NULL UNIQUE
-
                     );",
                     "CREATE TABLE IF NOT EXISTS books (
                         id serial PRIMARY KEY,
@@ -47,13 +46,13 @@ class ManageTable
         if(empty($data->author)){
             $author = $this->insertAuthor("");
         }else{
-            $author = $this->insertAuthor($data->author);
+            $author = $this->insertAuthor(utf8_decode($data->author));
         }
         // check if author is not null
-        if(empty($data->name)){
+        if(empty(utf8_decode($data->name))){
             $this->insertBook("",$author);
         }else{
-            $this->insertBook($data->name,$author);
+            $this->insertBook(utf8_decode($data->name),$author);
         }
     }
 
