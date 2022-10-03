@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<library>
+    <book>
+        <name>إمبراطورية الذهب</name>
+        <author>جان زيجلر</author>
+        <date>2005</date>
+    </book>
+    <book>
+        <name>Волк с Уолл-Стрит</name>
+        <author>Джордан Белфорт</author>
+        <date>2016</date>
+    </book>
+    <book>
+        <name>Lean Start up</name>
+        <author>Eric Rice</author>
+        <date>2019</date>
+    </book>
+    <book>
+        <name>リーンスタートアップ</name>
+        <author>エリック・ライス</author>
+        <date>2019</date>
+    </book>
+    <book>
+        <name>精益创业</name>
+        <author>埃里克·赖斯</author>
+        <date>2019</date>
+    </book>
+    <book>
+        <name>Poor Father, Rich Father</name>
+        <author>Robert Kiyosaki</author>
+        <date>2020</date>
+    </book>
+    <book>
+        <name>Kambag'al ota, boy ota</name>
+        <author>罗伯特清崎</author>
+        <date>2020</date>
+    </book>
+    <book>
+        <name>穷爸爸，富爸爸</name>
+        <author>罗伯特清崎</author>
+        <date>2020</date>
+    </book>
+</library>

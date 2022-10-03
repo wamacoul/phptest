@@ -15,7 +15,6 @@
         include_once('../Database/Connection.class.php');
         include_once('../Database/ManageTable.class.php');
         include_once('../Model/Book.class.php');
-        $_POST = array();
         try{
             $pdo = Connection::get()->connect();
             $manageTables = new ManageTable($pdo);
