@@ -1,0 +1,53 @@
+.table {
+    display: flex;
+    align-items: flex-start;
+}
+
+.row {
+    border: 1px black solid;
+    height: 3em;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    background-color: aqua;
+}
+.book{
+    width: 50%;
+    margin: auto;
+}
+.animation
+{
+    position: relative;
+    animation: animerLeft 5s;
+}
+@keyframes animerLeft
+{
+    from{
+        left: -300px;
+        opacity: 0;
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+.search-form
+{   
+    display: flex;
+    justify-content: center;
+}
+.file-form
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.submit:hover
+{
+    cursor: pointer;
+}

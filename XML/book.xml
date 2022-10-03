@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<library>
+    <book>
+        <name>empire de la honte</name>
+        <author>Jean Ziegler</author>
+        <date>2005</date>
+    </book>
+    <book>
+        <name>Effet de vague</name>
+        <author>Jana Rouze</author>
+        <date>2016</date>
+    </book>
+    <book>
+        <name>Le reve maitresse</name>
+        <author>Dani Collins</author>
+        <date>2019</date>
+    </book>
+    <book>
+        <name>Un dangereux perche</name>
+        <author>Maya Blake</author>
+        <date>2020</date>
+    </book>
+</library>
